@@ -1,0 +1,190 @@
+html {
+    background-color: rgb(221, 222, 243);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* to change the color of a link when you hover over it */
+/* a:hover{} */
+
+
+#navbar {
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+.apply {
+    float: right;
+}
+
+.form-group {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.form-group textarea {
+    width: 80%;
+    font-family: 'Roboto';
+}
+
+.form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#application-form label {
+    font-weight: 600;
+}
+
+#application-form input,
+select,
+textarea {
+    padding: 8px;
+    margin-top: 4px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+
+#jobs {
+    padding: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#banner {
+    width: 100%;
+    object-fit: cover;
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#description {
+    width: 50%;
+    padding-right: 8px;
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+#team image {
+    width: 50%;
+}
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#jobs-table tr:nth-child(odd) {
+    background-color: ghostwhite;
+}
+
+/* margins and paddings don't work for spans, only divs */
+.location {
+    color: gray;
+    margin-bottom: 16px;
+}
+
+#footer {
+    background-color: ghostwhite;
+    margin-top: 32px;
+    padding: 8px;
+    text-align: center;
+}
+
+#footer-links {
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+
+#copyright {
+    color: gray;
+}
